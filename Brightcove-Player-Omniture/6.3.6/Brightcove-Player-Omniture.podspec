@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Brightcove-Player-Omniture"
-  s.version      = "6.3.5"
+  s.version      = "6.3.6"
   s.summary      = "Adobe Marketing Cloud Plugin for Brightcove Player SDK for iOS"
   s.homepage     = "https://docs.brightcove.com/en/player/mobile-sdks/"
   s.license      = { :type => 'Commercial', :file => 'LICENSE.md' }
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   
-  s.dependency 'Brightcove-Player-Core/default', '6.3.5'
+  s.dependency 'Brightcove-Player-Core/default', '6.3.6'
   s.ios.vendored_framework   = "ios/BrightcoveAMC.framework"
 
   s.weak_frameworks = 'SystemConfiguration'

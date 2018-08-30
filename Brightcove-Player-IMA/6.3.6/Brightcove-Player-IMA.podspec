@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name         = "Brightcove-Player-IMA"
-	s.version      = "6.3.5"
+	s.version      = "6.3.6"
 	s.summary      = "IMA Plugin for Brightcove Player SDK for iOS"
 	s.homepage     = "https://docs.brightcove.com/en/player/mobile-sdks/"
 	s.license      = { :type => 'Commercial', :file => 'LICENSE.md' }
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 	s.source       = { :git => "https://github.com/brightcove/brightcove-player-sdk-ios-ima.git", :tag => "v#{s.version}" }
 	s.requires_arc = true
 
-	s.dependency 'Brightcove-Player-Core/dynamic', '6.3.5'
+	s.dependency 'Brightcove-Player-Core/dynamic', '6.3.6'
 	s.dependency 'GoogleAds-IMA-iOS-SDK', '3.7.0.1'
 	
 	s.vendored_framework   = "ios/BrightcoveIMA.framework"
